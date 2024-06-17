@@ -1,0 +1,17 @@
+[
+    {
+        "id": "login",
+        "sectionLabel": "Connection au back office",
+        "fields": [
+            {
+                "label": "username",
+                "type": "text",
+                "placeholder": "username"
+            },
+            {
+                "label": "password",
+                "type": "password"
+            }
+        ]
+    }
+]
