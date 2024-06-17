@@ -1,6 +1,6 @@
 const InputRadioComponent = ({ item }: { item: ShapeFormValues }) => {
   return item?.options?.map((opt) => (
-    <div className="flex flex-wrap flex-row">
+    <div className="flex flex-wrap flex-row" key={opt.id + opt.label}>
       <input
         className="flex align-item-center"
         id={opt.id}
