@@ -5,7 +5,7 @@ import "@/App.css";
 const HomePage = () => {
   return (
     <div className="bg-teal-600">
-      <Link to="/inscription">
+      <Link to="/registration">
         Formulaire d'inscription
       </Link>
     </div>

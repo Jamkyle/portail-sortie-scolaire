@@ -6,7 +6,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <HomePage />,
   },
-  { path: "/inscription", element: <RegistrationPage /> },
+  { path: "/registration", element: <RegistrationPage /> },
 ]);
 
 const AppRouter = () => {
