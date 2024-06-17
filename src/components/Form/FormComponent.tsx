@@ -1,4 +1,4 @@
-import InputComponent from "@/components/InputComponent/InputComponent";
+import InputComponent from "@/components/inputComponent/InputComponent";
 
 const FormComponent = ({ shapeForms, onSubmit }: FormProps) => {
   return (
