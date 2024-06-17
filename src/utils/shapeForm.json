@@ -4,6 +4,14 @@
         "sectionLabel": "Parents",
         "fields": [
             {
+                "label": "parent",
+                "type": "radio",
+                "options": [
+                   { "label": "Papa", "id":"parent1"},
+                   { "label": "Maman", "id":"parent2"}
+                ]
+            },
+            {
                 "label": "Adresse",
                 "placeholder": "votre adresse",
                 "type": "search"

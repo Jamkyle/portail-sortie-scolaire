@@ -5,7 +5,7 @@ interface FormProps {
 }
 type ShapeFormType = ShapeFormSection[]
 type ShapeFormSection = { id: string, sectionLabel: string, fields: ShapeFormValues[] }
-type ShapeFormValues = { label: string, placeholder?: string, type: string }
+type ShapeFormValues = { label: string, placeholder?: string, type: string, id?: string, }
 
 //USER
 

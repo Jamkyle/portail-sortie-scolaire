@@ -14,9 +14,6 @@ const InputComponent = ({ item }: { item: ShapeFormValues }) => {
         type={item.type}
         placeholder={item.placeholder}
       />
-      <p className="text-red-500 text-xs italic">
-        champ requis, veuillez le remplir.
-      </p>
     </div>
   );
 };
