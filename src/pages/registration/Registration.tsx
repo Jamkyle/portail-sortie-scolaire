@@ -1,6 +1,7 @@
-import Form from "@/components/Form/FormComponent";
-import shapeForm from '@/utils/shapeForm.json'
+import Form from "@/components/form/FormComponent";
+import shapeForm from '@/utils/shapeForm.json';
+
 const RegistrationPage = () => {
-  return <Form shapeForm={shapeForm} />;
+  return <Form shapeForms={shapeForm} />;
 };
 export default RegistrationPage;

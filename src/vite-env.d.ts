@@ -1,6 +1,7 @@
 /// <reference types="vite/client" />
 interface FormProps {
-    shapeForm: ShapeFormType
+    shapeForms: ShapeFormType
 }
-type ShapeFormType = ShapeFormValues[]
+type ShapeFormType = ShapeFormSection[]
+type ShapeFormSection = { id: string, sectionLabel: string, fields: ShapeFormValues[] }
 type ShapeFormValues = { label: string, placeholder?: string, type: string }

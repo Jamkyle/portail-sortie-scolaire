@@ -1,33 +1,61 @@
 [
     {
-        "label": "Adresse",
-        "placeholder": "votre adresse",
-        "type": "text"
+        "id": "parents",
+        "sectionLabel": "Parents",
+        "fields": [
+            {
+                "label": "Adresse",
+                "placeholder": "votre adresse",
+                "type": "search"
+            },
+            {
+                "label": "email",
+                "placeholder": "votre email",
+                "type": "email"
+            },
+            {
+                "label": "tél",
+                "placeholder": "ex: 0123456789",
+                "type": "tel"
+            },
+            {
+                "label": "Nom",
+                "placeholder": "Dupont",
+                "type": "text"
+            },
+            {
+                "label": "Prénom",
+                "placeholder": "Alexandre",
+                "type": "text"
+            },
+            {
+                "label": "Date de naissance",
+                "type": "date"
+            }
+        ]
     },
     {
-        "label": "email",
-        "placeholder": "votre email",
-        "type": "text"
-    },
-    {
-        "label": "tél",
-        "placeholder": "ex: 0123456789",
-        "type": "text"
-    },
-    {
-        "label": "Nom",
-        "placeholder": "Dupont",
-        "type": "text"
-    },
-    {
-        "label": "Prénom",
-        "placeholder": "Alexandre",
-        "type": "text"
-    },
-    {"label": "Date de naissance", "type":"date"},
-    {
-        "label": "fichier",
-        "placeholder": "Alexandre",
-        "type": "file"
+        "id": "children",
+        "sectionLabel": "Enfants",
+        "fields": [
+            {
+                "label": "Nom",
+                "placeholder": "Dupont",
+                "type": "text"
+            },
+            {
+                "label": "Prénom",
+                "placeholder": "Alexandre",
+                "type": "text"
+            },
+            {
+                "label": "Date de naissance",
+                "type": "date"
+            },
+            {
+                "label": "fichier",
+                "type": "file"
+            }
+        ]
     }
 ]
